@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 09 06:22:10 CEST 2024","Tue Jul 09 06:22:26 CEST 2024","16445","","","","","","User can add a rating to a movie",""
+"passed","Tue Jul 09 06:22:09 CEST 2024","Tue Jul 09 06:22:09 CEST 2024","153","","","","","","User can retrieve the top rated movies",""
+"passed","Tue Jul 09 06:22:09 CEST 2024","Tue Jul 09 06:22:09 CEST 2024","168","","","","","","User attempts to access a non existent endpoint",""
+"passed","Tue Jul 09 06:22:09 CEST 2024","Tue Jul 09 06:22:10 CEST 2024","239","","","","","","Unauthorised user attempts to add a rating to a movie",""
+"passed","Tue Jul 09 06:22:09 CEST 2024","Tue Jul 09 06:22:09 CEST 2024","118","","","","","","Unauthorised user attempts to retrieve top rated movies",""

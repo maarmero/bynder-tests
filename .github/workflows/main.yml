@@ -1,0 +1,18 @@
+name: Test with Docker cypress/included
+on: push
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    container:
+      # Cypress Docker image from https://hub.docker.com/r/cypress/included
+      # with Cypress globally pre-installed
+      image: cypress/included:latest
+      options: --user 1001
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          working-directory: ui-tests
+        env:
+          CYPRESS_INSTALL_BINARY: 0
